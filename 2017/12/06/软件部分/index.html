@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="软件部分开发环境编程语言：C++编译环境：codeblocks 13.12.0.0+OpenCV 2.4.4所加载类库：OpenCV图像处理库，SerialPort串口读写类
+图像采集程序开始时通过摄像头捕捉路线图像。摄像头尽量至于高处，将路线板拍全，否则透视变换会使视差增大。要注意光线不能过暗或过">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="工科创9组">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="软件部分"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="工科创IIB——9组"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article" />
+    
+
+    <!--Page Cover-->
+    
+
+        <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>软件部分 - 工科创IIB——9组</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+	
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">项目主页</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="https://github.com/klugjo/hexo-theme-clean-blog">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/img/home.jpeg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>软件部分</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2017-12-06
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 id="软件部分"><a href="#软件部分" class="headerlink" title="软件部分"></a>软件部分</h1><h2 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h2><p>编程语言：C++<br>编译环境：codeblocks 13.12.0.0+OpenCV 2.4.4<br>所加载类库：OpenCV图像处理库，SerialPort串口读写类</p>
+<h2 id="图像采集"><a href="#图像采集" class="headerlink" title="图像采集"></a>图像采集</h2><p>程序开始时通过摄像头捕捉路线图像。摄像头尽量至于高处，将路线板拍全，否则透视变换会使视差增大。要注意光线不能过暗或过亮，便于二值化将路线准确识别出来。一旦拍下路线板照片，摄像头就不再移动。
+　</p>
+<h2 id="透视变换"><a href="#透视变换" class="headerlink" title="透视变换"></a>透视变换</h2><p>用鼠标选取路线板的四个角进行透视变换。将路线板周围的干扰滤去，变换到正的坐标系中，并保存变换矩阵，以备在图像实时采集时用。用到OpenCV的库函数cvGetPerspectiveTransform和cvWarpPerspective函数。在后面实时采集小车和路线板图像时，都将先利用这个固定的变换矩阵对图像进行变换，统一坐标系。</p>
+<h2 id="二值化"><a href="#二值化" class="headerlink" title="二值化"></a>二值化</h2><p>调用cvCvtColor()函数将图像从RGB颜色空间转换为HSV颜色空间，调用cvInRangeS()函数将背景置黑、跑道置白；</p>
+<h2 id="路径细化"><a href="#路径细化" class="headerlink" title="路径细化"></a>路径细化</h2><p>将跑道的白色部分宽度细化为一至二个像素，是后续路径点处理更加准确</p>
+<h2 id="路径规划"><a href="#路径规划" class="headerlink" title="路径规划"></a>路径规划</h2><p> 用鼠标顺序点击起点和终点，程序会将离鼠标点击处最近的点分别设为起点和终点；把处于同一带状区域中的点看作一天线段，直线通过；从起点开始，深度优先搜索，得到多条首尾相接的线段。</p>
+<p>　</p>
+<p>　</p>
+<p>小车追踪：包括透视变换、头尾二值化、头尾定位等三个步骤。</p>
+<p>透视变换： 同图像处理部分的透视变换；</p>
+<p>头尾二值化： 根据头尾“识别区域”的不同颜色分别确定相应的二值化参数，将“识别区域”置白，背景置黑；</p>
+<p>头尾定位： 在头和尾的两幅二值化图像上，分别用鼠标按住并拖动，产生一个象征搜索区域的矩形框，将白色区域包括其中，调用cvCamShift()函数可以获得白色区域的外接矩形及其中心坐标，从而分别确定小车头和尾的位置，此后依次迭代使用矩形搜索区域，可实现连续追踪，追踪实时性由搜索频率决定。</p>
+<p>　</p>
+<p>小车控制</p>
+<p>配合硬件部分的间断控制（150ms接受一次信号并且保持状态150ms），系统每150ms扫描一次小车位置，处理后发送给小车。<br>由小车识别找到小车的车头、车尾的质心后，通过比较小车车身的方向矢量和小车质心到下一个目标点的方向矢量来判别小车该左拐、右拐还是直行；通过比较小车质心到下一个目标点的距离来判断小车该前进还是停止。<br>当然不可能使小车走的路线和找到的路径完全吻合，需要设定一定的可容许误差，否则小车可能永远也走不到某个点。比如当小车车身的方向与路径的方向角度小于某个角度允许误差时，就可认为是直行。当小车与下一个点的距离小于某个距离允许误差时，就可认为是到达该点并停止。<br>当小车经过所有找到的路径点后，自动停止，程序退出。<br>小车控制部分需要通过串口向小车发送字节命令。每次发送一个字节内容，并定义4个字节控制命令：<br>G：前进<br>B：后退<br>L：左转<br>R：右转</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2018 工科创9组<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
