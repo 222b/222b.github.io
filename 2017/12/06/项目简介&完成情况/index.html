@@ -10,6 +10,13 @@
 
     <!--Description-->
     
+        <meta name="description" content="项目说明小车走黑线项目是利用软件端通过opencv对地图进行透视变换并通过黑线抽象路径，并根据得到路径控制小车运动，实时调整小车，最终到达终点。
+项目完成情况项目材料电脑、小车(实验室提供)、地图
+完成情况
+小车可接受pc端指令运动，包括前进，后退，左右转弯，反应灵敏。
+
+通过摄像头实时采集回传的图">
+    
 
     <!--Author-->
     
@@ -18,7 +25,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="测试结果"/>
+        <meta property="og:title" content="项目简介&amp;完成情况"/>
     
 
     <!--Open Graph Description-->
@@ -40,7 +47,7 @@
 
     <!-- Title -->
     
-    <title>测试结果 - 工科创IIB——9组</title>
+    <title>项目简介&amp;完成情况 - 工科创IIB——9组</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -118,7 +125,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>测试结果</h1>
+                    <h1>项目简介&完成情况</h1>
                     
                     <span class="meta">
                         <!-- Date and Author -->
@@ -146,7 +153,21 @@
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                
+                <h2 id="项目说明"><a href="#项目说明" class="headerlink" title="项目说明"></a>项目说明</h2><p>小车走黑线项目是利用软件端通过opencv对地图进行透视变换并通过黑线抽象路径，并根据得到路径控制小车运动，实时调整小车，最终到达终点。</p>
+<h2 id="项目完成情况"><a href="#项目完成情况" class="headerlink" title="项目完成情况"></a>项目完成情况</h2><h3 id="项目材料"><a href="#项目材料" class="headerlink" title="项目材料"></a>项目材料</h3><p>电脑、小车(实验室提供)、地图</p>
+<h3 id="完成情况"><a href="#完成情况" class="headerlink" title="完成情况"></a>完成情况</h3><ul>
+<li><p>小车可接受pc端指令运动，包括前进，后退，左右转弯，反应灵敏。</p>
+</li>
+<li><p>通过摄像头实时采集回传的图像，计算机可自动抽象出跑道，生成路线，向小车发送运动指令。    </p>
+</li>
+<li><p>小车能通过蓝牙接收计算机的指令，沿弯折较多弯度较大的黑线行进，并在到达终点时自行停止。系统整体运行流畅，反应灵敏。</p>
+</li>
+</ul>
+<h2 id="不足以及可以改进的地方"><a href="#不足以及可以改进的地方" class="headerlink" title="不足以及可以改进的地方"></a>不足以及可以改进的地方</h2><ul>
+<li>参数调节可以优化成自动调整或者仅需要取一个角点;小车追踪不需要标明小车初始位置提供参数，通过Hough变换找到地图的边界线，确定四个角点，自动进行透视变换;</li>
+<li>控制算法可以进一步优化，两轮转速如果能达到完全一致的话，可以达到完全原地转弯，这样可以使小车运动更流畅，更智能。</li>
+</ul>
+
 
                 
             </div>
